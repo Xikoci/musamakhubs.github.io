@@ -357,7 +357,24 @@ section {
   top:55%;
   left: 60%;
   transform: translate(-50%,-50%);
+  border-radius: 15px;
  
+}
+
+@media only screen and (max-width: 768px){
+  .about .icon-boxes h3{
+    width: 98%;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+  }
+  
+
+  
+
+
+
 }
 
 .about .icon-box .icon {
@@ -766,6 +783,8 @@ section {
   
   
   
+}
+
 }
 .clients .client-logo {
   padding: 10px;
